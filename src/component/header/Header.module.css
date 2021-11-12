@@ -1,0 +1,26 @@
+.header {
+  position: fixed;
+  top: 0.8rem;
+  left: 0.8rem;
+  width: calc(100% - 1.6rem);
+}
+
+.header > div {
+  background-color: snow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.2rem;
+  padding-left: 1rem;
+}
+
+.nav-link {
+  padding: 1rem 1.8rem;
+  transition: all 0.4s ease-out;
+}
+.nav-link:hover {
+  background-color: rgb(222, 222, 222);
+}

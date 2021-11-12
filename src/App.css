@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.App {
+  font-family: "Open Sans", Helvetica;
+}
+
+.container {
+  margin: 0 5%;
+}
